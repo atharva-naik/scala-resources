@@ -27,6 +27,7 @@ It creates
 1. Hello$.class
 2. Hello.class
 [hello world reference](https://docs.scala-lang.org/overviews/scala-book/hello-world-1.html)
+To run the compiled code, run command: ```scala Hello```
 
 ### Running spark code:
 1. Fire up the spark shell executable (```./spark-shell```). It is located in ```spark-x.x.x/bin```. Ignore any warnings displayed. The **spark context** is automatically intialized as ```sc```. Now you can use it in the same way as the scala REPL.
@@ -38,7 +39,7 @@ val wordMap = wordsFlatMap.map(word => (word,1)) // map method to create tuples 
 var uncollected = wordMap.reduceByKey(_+_) // reduce by the key (first member of the tuple) using '+' operator.  
 val wordCounts = uncollected.collect // computation starts only after this step (laziness in scala)
 wordCounts // display the entire array
-wordCounts(0) // first element
+println(wordCounts(0)) // first element
 ```
 2. Running small scripts: fire up REPL and use the following command to load the script file:
 ```load: /path/to/script.scala```
