@@ -1,7 +1,7 @@
 # Setting up various things
 
 ## Setting up Scala & Spark
-Use [this blog]() as a reference
+Use [this blog](https://medium.com/@josemarcialportilla/installing-scala-and-spark-on-ubuntu-5665ee4b62b1) as a reference for Ubuntu systems.
 
 ### Running scala code:
 1. Fire up _scala REPL_ (Read, Evaluate, Print Loop) by typing ```scala``` on the terminal. 
@@ -52,10 +52,11 @@ It will:
 2. Set path variables in the ```~/.bashrc```
 
 ### Useful Links
-1. [Spark docs](https://spark.apache.org/)
-2. [scala docs](https://docs.scala-lang.org/?_ga=2.198983471.1871694219.1629933621-987059727.1629926689)
-3. [Hello world in scala](https://docs.scala-lang.org/overviews/scala-book/hello-world-1.html)
-4. [Env setup for spark](https://www.educative.io/edpresso/how-to-set-up-a-spark-environment)
-5. [Quicksort in scala](https://alvinalexander.com/scala/how-to-sort-scala-array-quicksort/)
-6. [sortBy in scala](https://blog.knoldus.com/sorting-in-scala-using-sortedsortby-and-sortwith-function/)
-7. [Word Count in spark and scala](https://dzone.com/articles/wordcount-with-spark-and-scala)
+1. [Installing scala and Spark](https://medium.com/@josemarcialportilla/installing-scala-and-spark-on-ubuntu-5665ee4b62b1)
+2. [Spark docs](https://spark.apache.org/)
+3. [scala docs](https://docs.scala-lang.org/?_ga=2.198983471.1871694219.1629933621-987059727.1629926689)
+4. [Hello world in scala](https://docs.scala-lang.org/overviews/scala-book/hello-world-1.html)
+5. [Env setup for spark](https://www.educative.io/edpresso/how-to-set-up-a-spark-environment)
+6. [Quicksort in scala](https://alvinalexander.com/scala/how-to-sort-scala-array-quicksort/)
+7. [sortBy in scala](https://blog.knoldus.com/sorting-in-scala-using-sortedsortby-and-sortwith-function/)
+8. [Word Count in spark and scala](https://dzone.com/articles/wordcount-with-spark-and-scala)
